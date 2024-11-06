@@ -12,8 +12,7 @@ public class MoveController : MonoBehaviour
 
     [SerializeField] private float _movePower = 10f;
     [SerializeField] private float _maxSpeed = 8f;
-
-    private InputAction _moveAction;
+    
     private readonly ReactiveProperty<Vector2> _moveDirection = new();
 
     private void Start()
